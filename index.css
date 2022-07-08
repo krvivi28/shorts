@@ -1,0 +1,180 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaijaan+2&family=Ubuntu:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@200;700&family=Finlandica:ital@1&display=swap');
+
+p {
+    /* font-family: 'Arima', cursive; */
+    font-family: 'Finlandica', sans-serif;
+}
+
+h1 {
+    font-family: 'Arima', cursive;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* border: 1px solid black; */
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .7) 10%, rgba(0, 0, 0, 0));
+    /* position: absolute; */
+    height: 70px;
+}
+
+#watch {
+    font-size: 16px;
+    color: white;
+}
+
+
+#b1 {
+    font-size: 15px;
+    background: transparent;
+    border: 1px solid black;
+    color: white;
+}
+
+nav::before {
+    content: "";
+    position: absolute;
+    /* background-color: #040329; */
+    background-color: black;
+    width: 100%;
+    height: 735%;
+    top: 0;
+    left: 0;
+    opacity: 0.86;
+    z-index: -1;
+}
+
+.navbar ul {
+    position: absolute;
+    top: 50px;
+    display: flex;
+    /* padding: 10px; */
+    font-size: 20px;
+    color: white;
+    /* border: 2px solid red; */
+    left: 5px;
+}
+
+.navbar ul li {
+    list-style: none;
+    color: white;
+    padding: 8px;
+    position: relative;
+    font-family: 'Baloo Bhaijaan 2', cursive;
+    margin-bottom: 5px;
+}
+
+.navbar ul a {
+    text-decoration: none;
+}
+
+.navbar li:hover {
+    color: greenyellow;
+    /* color: red; */
+}
+
+.navbar li::after {
+    content: "";
+    position: absolute;
+    background-color: rgb(193, 206, 11);
+    /* background-color: rgb(235, 15, 15); */
+    width: 0px;
+    height: 2.5px;
+    transition: 0.5s;
+    left: 0px;
+    top: 32px;
+}
+
+.navbar li:hover::after {
+    width: 100%;
+}
+
+.navbar .menu-btn i {
+    font-size: 20px;
+    color: white;
+    /* display: none; */
+}
+
+#click {
+    display: none;
+}
+
+.hr {
+    display: none;
+}
+
+
+
+.menu-btn {
+    display: none;
+}
+
+p {
+    color: white;
+}
+
+.time {
+    color: white;
+
+}
+
+.count {
+    color: white;
+    position: relative;
+    left: 90px;
+}
+
+.main {
+    /* position: relative;
+     top: 50px; */
+    display: flex;
+    flex-wrap: wrap;
+    padding: 5px;
+    z-index: -1;
+    overflow: auto;
+}
+
+.card {
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 3px auto;
+    height: 350px;
+}
+
+/* .card 
+{   position: static;
+    z-index: -2;
+}
+.main .card video{
+    position: relative;
+    z-index: -2;
+} */
+
+
+footer {
+    background: black;
+    color: white;
+    padding: 9px 20px;
+}
+
+
+.right1 img {
+    width: 15px;
+    /* filter: invert(); */
+
+}
+
+.right1 {
+    font-size: 15px;
+    color: white;
+}
