@@ -33,7 +33,7 @@
     font-size: 20px;
     color: white;
     display: block;
-    left: 5px;
+    right: 5px;
     top: 75px;
 }
 #click:checked ~ .menu-btn i:before {
